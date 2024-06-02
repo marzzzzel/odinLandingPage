@@ -1,13 +1,20 @@
 * {
     font-family: Roboto;
     flex: 1;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .container-top {
     display: flex;
-    max-width: 800px;
-    margin: auto;
-    background-color: darkgray;
+    background-color: #1F2937;
+    box-shadow: 0lvh;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
 }
 
 .Logo-top {
@@ -26,4 +33,12 @@
 .top-menu a {
     color: grey;
     margin-left: 1px;
+}
+
+
+.wrapper {
+    background-color: #1F2937;
+    border: solid red;
+    display: flex;
+    flex: 1;
 }
