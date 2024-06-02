@@ -1,0 +1,29 @@
+* {
+    font-family: Roboto;
+    flex: 1;
+}
+
+.container-top {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    background-color: darkgray;
+}
+
+.Logo-top {
+    width: 200px;
+    display: flex;
+
+}
+
+.top-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 50%;
+}
+
+.top-menu a {
+    color: grey;
+    margin-left: 1px;
+}
