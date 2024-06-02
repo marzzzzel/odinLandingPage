@@ -1,5 +1,5 @@
 * {
-    font-family: Roboto;
+    font-family: roboto;
     flex: 1;
     max-width: 1000px;
     margin: auto;
@@ -11,10 +11,14 @@
     box-shadow: 0lvh;
 }
 
-h1 {
+.main-text .Hero-main-text {
+    display:flex;
+    padding:10px;
+    padding-bottom: 0;
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
+    padding:px;
 }
 
 .Logo-top {
@@ -38,7 +42,23 @@ h1 {
 
 .wrapper {
     background-color: #1F2937;
-    border: solid red;
-    display: flex;
+        display: flex;
     flex: 1;
 }
+
+.Hero-secondary-text{
+    padding:10px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+
+    .signup-button button {
+        display: flex;
+        color:white;
+               margin-left: 10px;
+        background-color: blue;
+        text-align: justify;
+        width:100px;
+        height:50px;
+    }
