@@ -13,13 +13,12 @@
 
 .main-text .Hero-main-text {
     display:flex;
-    padding:10px;
+    padding:10%;
     padding-bottom: 0;
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
-    padding:px;
-}
+   }
 
 .Logo-top {
     width: 200px;
@@ -47,18 +46,18 @@
 }
 
 .Hero-secondary-text{
-    padding:10px;
+    padding-left:10%;
     color: #E5E7EB;
     font-size: 18px;
 }
 
 
-    .signup-button button {
-        display: flex;
-        color:white;
-               margin-left: 10px;
+    .signup-button button{
+                color:white;
+        margin-left: 10%;
         background-color: blue;
-        text-align: justify;
+        text-align: 500px;
         width:100px;
         height:50px;
+        border-radius: 12px;
     }
