@@ -1,14 +1,18 @@
 * {
-    font-family: roboto;
+    font-family: Roboto;
     flex: 1;
     max-width: 1000px;
     margin: auto;
-}
+    }
+
+    html{
+        background-color: black;
+    }
 
 .container-top {
     display: flex;
     background-color: #1F2937;
-    box-shadow: 0lvh;
+    
 }
 
 .main-text .Hero-main-text {
@@ -18,19 +22,23 @@
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
+    background-color: #1F2937;
    }
 
 .Logo-top {
     width: 200px;
     display: flex;
-
+    background-color: #1F2937;
 }
 
 .top-menu {
     display: flex;
+    background-color: #1F2937;
+
     justify-content: flex-end;
     align-items: center;
     margin-left: 50%;
+    margin-top: 10px;
 }
 
 .top-menu a {
@@ -53,11 +61,28 @@
 
 
     .signup-button button{
-                color:white;
+               color:white;
         margin-left: 10%;
         background-color: blue;
-        text-align: 500px;
-        width:100px;
+                width:100px;
         height:50px;
-        border-radius: 12px;
+        border-radius: 10px;
+        font-weight: bolder;
+        font-size: large;
+       
+    }
+    .signup-button button:hover { background-color: #245191; }
+
+    .content{
+        background-color: white;
+    }
+
+    .Content-header{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 36px;
+    font-weight: bolder;
+    justify-content: center;
+
     }
