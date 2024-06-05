@@ -84,5 +84,22 @@
     font-size: 36px;
     font-weight: bolder;
     justify-content: center;
-
     }
+
+    .plaatjes{
+        background-color: white;
+        display:flex;
+        justify-content: space-between;
+       }
+    .plaatjes img{
+        background-color: white;
+        width:200px;
+        border: 5px solid #1F2937;
+        border-radius: 25px;
+                }
+
+                .banaan1{
+                    margin-left: 3%;
+                }
+
+    
