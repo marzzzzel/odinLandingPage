@@ -3,27 +3,27 @@
     flex: 1;
     max-width: 1000px;
     margin: auto;
-    }
+}
 
-    html{
-        background-color: black;
-    }
+html {
+    background-color: black;
+}
 
 .container-top {
     display: flex;
     background-color: #1F2937;
-    
+
 }
 
 .main-text .Hero-main-text {
-    display:flex;
-    padding:10%;
+    display: flex;
+    padding: 10%;
     padding-bottom: 0;
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
     background-color: #1F2937;
-   }
+}
 
 .Logo-top {
     width: 200px;
@@ -49,57 +49,74 @@
 
 .wrapper {
     background-color: #1F2937;
-        display: flex;
+    display: flex;
     flex: 1;
 }
 
-.Hero-secondary-text{
-    padding-left:10%;
+.Hero-secondary-text {
+    padding-left: 10%;
     color: #E5E7EB;
     font-size: 18px;
 }
 
 
-    .signup-button button{
-               color:white;
-        margin-left: 10%;
-        background-color: blue;
-                width:100px;
-        height:50px;
-        border-radius: 10px;
-        font-weight: bolder;
-        font-size: large;
-       
-    }
-    .signup-button button:hover { background-color: #245191; }
+.signup-button button {
+    color: white;
+    margin-left: 10%;
+    margin-top: 10px;
+    background-color: blue;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: large;
 
-    .content{
-        background-color: white;
-    }
+}
 
-    .Content-header{
+.signup-button button:hover {
+    background-color: #245191;
+}
+
+.content {
+    background-color: white;
+}
+
+.Content-header {
     display: flex;
     padding-top: 50px;
     padding-bottom: 50px;
     font-size: 36px;
     font-weight: bolder;
     justify-content: center;
-    }
+}
 
-    .plaatjes{
-        background-color: white;
-        display:flex;
-        justify-content: space-between;
-       }
-    .plaatjes img{
-        background-color: white;
-        width:200px;
-        border: 5px solid #1F2937;
-        border-radius: 25px;
-                }
+.plaatjes {
+    background-color: white;
+    display: flex;
+}
 
-                .banaan1{
-                    margin-left: 3%;
-                }
+.plaatjes .banaan1,
+.plaatjes .banaan2,
+.plaatjes .banaan3,
+.plaatjes .banaan4 {
+    display: flex;
+    flex-direction: column;
+   }
 
-    
+.plaatjes img {
+    background-color: white;
+    width: 150px;
+    border: 5px solid blue;
+    border-radius: 25px;
+}
+
+
+.plaatjes .banaan1 .tekst-banaan1,
+.plaatjes .banaan2 .tekst-banaan2,
+.plaatjes .banaan3 .tekst-banaan3,
+.plaatjes .banaan4 .tekst-banaan4 {
+    font-size: 12px;
+    width: 50%;
+    text-align: center;
+
+}
